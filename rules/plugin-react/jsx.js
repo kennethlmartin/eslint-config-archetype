@@ -88,13 +88,13 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     'react/jsx-sort-props': 'error',
 
-    // Validate spacing before closing bracket in JSX (fixable)
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': 'error',
-
     // Validate whitespace in and around the JSX opening and closing brackets (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-    'react/jsx-tag-spacing': 'off',
+    'react/jsx-tag-spacing': ['error', {
+      'afterOpening': 'never',
+      'beforeClosing': 'never',
+      'beforeSelfClosing': 'always',
+    }],
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
