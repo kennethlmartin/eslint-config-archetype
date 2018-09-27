@@ -19,6 +19,10 @@ module.exports = {
     // http://eslint.org/docs/rules/handle-callback-err
     'handle-callback-err': 'off',
 
+    // Disallow use of the Buffer() constructor
+    // https://eslint.org/docs/rules/no-buffer-constructor
+    'no-buffer-constructor': 'off',
+
     // Disallow require calls to be mixed with regular variable declarations
     // http://eslint.org/docs/rules/no-mixed-requires
     'no-mixed-requires': 'off',

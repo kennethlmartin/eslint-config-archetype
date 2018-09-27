@@ -7,9 +7,25 @@
 
 module.exports = {
   'rules': {
+    // Enforce "for" loop update clause moving the counter in the right direction
+    // https://eslint.org/docs/rules/for-direction
+    'for-direction': 'off',
+
+    // Enforces that a return statement is present in property getters
+    // https://eslint.org/docs/rules/getter-return
+    'getter-return': 'off',
+
+    // Disallow using an async function as a Promise executor
+    // https://eslint.org/docs/rules/no-async-promise-executor
+    'no-async-promise-executor': 'off',
+
     // Disallow await inside of loops
     // http://eslint.org/docs/rules/no-await-in-loop
     'no-await-in-loop': 'off',
+
+    // Disallow comparing against -0
+    // https://eslint.org/docs/rules/no-compare-neg-zero
+    'no-compare-neg-zero': 'off',
 
     // Disallow assignment operators in conditional expressions
     // http://eslint.org/docs/rules/no-cond-assign
@@ -83,6 +99,10 @@ module.exports = {
     // http://eslint.org/docs/rules/no-irregular-whitespace
     'no-irregular-whitespace': 'error',
 
+    // Disallow characters which are made with multiple code points in character class syntax
+    // https://eslint.org/docs/rules/no-misleading-character-class
+    'no-misleading-character-class': 'off',
+
     // Disallow calling global object properties as functions
     // http://eslint.org/docs/rules/no-obj-calls
     'no-obj-calls': 'error',
@@ -118,6 +138,10 @@ module.exports = {
     // Disallow negating the left operand of relational operators
     // http://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
+
+    // Disallow assignments that can lead to race conditions due to usage of await or yield
+    // https://eslint.org/docs/rules/require-atomic-updates
+    'require-atomic-updates': 'off',
 
     // Require calls to isNaN() when checking for NaN
     // http://eslint.org/docs/rules/use-isnan

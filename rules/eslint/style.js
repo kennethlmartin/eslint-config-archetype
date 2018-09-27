@@ -7,9 +7,17 @@
 
 module.exports = {
   'rules': {
+    // Enforce line breaks after opening and before closing array brackets
+    // https://eslint.org/docs/rules/array-bracket-newline
+    'array-bracket-newline': 'off',
+
     // Enforce consistent spacing inside array brackets
     // http://eslint.org/docs/rules/array-bracket-spacing
     'array-bracket-spacing': 'error',
+
+    // Enforce line breaks between array elements
+    // https://eslint.org/docs/rules/array-element-newline
+    'array-element-newline': 'off',
 
     // Enforce consistent spacing inside single-line blocks
     // http://eslint.org/docs/rules/block-spacing
@@ -76,6 +84,10 @@ module.exports = {
     // http://eslint.org/docs/rules/func-style
     'func-style': 'off',
 
+    // Enforce consistent line breaks inside function parentheses
+    // https://eslint.org/docs/rules/function-paren-newline
+    'function-paren-newline': 'off',
+
     // Disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
     'id-blacklist': 'off',
@@ -87,6 +99,10 @@ module.exports = {
     // Require identifiers to match a specified regular expression
     // http://eslint.org/docs/rules/id-match
     'id-match': 'off',
+
+    // Enforce the location of arrow function bodies
+    // https://eslint.org/docs/rules/implicit-arrow-linebreak
+    'implicit-arrow-linebreak': 'off',
 
     // Enforce consistent indentation
     // http://eslint.org/docs/rules/indent
@@ -121,6 +137,10 @@ module.exports = {
     // http://eslint.org/docs/rules/lines-around-comment
     'lines-around-comment': 'off',
 
+    // Require or disallow an empty line between class members
+    // https://eslint.org/docs/rules/lines-between-class-members
+    'lines-between-class-members': 'off',
+
     // Enforce a maximum depth that blocks can be nested
     // http://eslint.org/docs/rules/max-depth
     'max-depth': 'off',
@@ -140,6 +160,10 @@ module.exports = {
     // http://eslint.org/docs/rules/max-lines
     'max-lines': 'off',
 
+    // Enforce a maximum number of line of code in a function
+    // https://eslint.org/docs/rules/max-lines-per-function
+    'max-lines-per-function': 'off',
+
     // Enforce a maximum depth that callbacks can be nested
     // http://eslint.org/docs/rules/max-nested-callbacks
     'max-nested-callbacks': 'off',
@@ -155,6 +179,10 @@ module.exports = {
     // Enforce a maximum number of statements allowed per line
     // http://eslint.org/docs/rules/max-statements-per-line
     'max-statements-per-line': 'off',
+
+    // Enforce a particular style for multiline comments
+    // https://eslint.org/docs/rules/multiline-comment-style
+    'multiline-comment-style': 'off',
 
     // Enforce newlines between operands of ternary expressions
     // http://eslint.org/docs/rules/multiline-ternary
@@ -252,6 +280,10 @@ module.exports = {
     // http://eslint.org/docs/rules/no-whitespace-before-property
     'no-whitespace-before-property': 'error',
 
+    // Enforce the location of single-line statements
+    // https://eslint.org/docs/rules/nonblock-statement-body-position
+    'nonblock-statement-body-position': 'off',
+
     // Enforce consistent line breaks inside braces
     // http://eslint.org/docs/rules/object-curly-newline
     'object-curly-newline': 'off',
@@ -284,6 +316,14 @@ module.exports = {
     // http://eslint.org/docs/rules/padded-blocks
     'padded-blocks': 'off',
 
+    // Disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead
+    // https://eslint.org/docs/rules/padding-line-between-statements
+    'padding-line-between-statements': 'off',
+
+    // Require or disallow padding lines between statements
+    // https://eslint.org/docs/rules/prefer-object-spread
+    'prefer-object-spread': 'off',
+
     // Require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
     'quote-props': 'off',
@@ -306,6 +346,10 @@ module.exports = {
     // Enforce consistent spacing before and after semicolons
     // http://eslint.org/docs/rules/semi-spacing
     'semi-spacing': 'off',
+
+    // Enforce location of semicolons
+    // https://eslint.org/docs/rules/semi-style
+    'semi-style': 'off',
 
     // Require object keys to be sorted
     // http://eslint.org/docs/rules/sort-keys
@@ -341,6 +385,10 @@ module.exports = {
     // Enforce consistent spacing after the // or /* in a comment
     // http://eslint.org/docs/rules/spaced-comment
     'spaced-comment': 'off',
+
+    // Enforce spacing around colons of switch statements
+    // https://eslint.org/docs/rules/switch-colon-spacing
+    'switch-colon-spacing': 'off',
 
     // Require or disallow spacing between template tags and their literals
     // http://eslint.org/docs/rules/template-tag-spacing
