@@ -6,6 +6,9 @@
  */
 
 module.exports = {
+  'globals': {
+    'React': true,
+  },
   'plugins': [
     'react',
   ],

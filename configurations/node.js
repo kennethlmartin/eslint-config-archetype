@@ -1,18 +1,30 @@
 'use strict';
 
 module.exports = {
+  'env': {
+    'commonjs': true,
+  },
   'extends': [
-    'archetype/configurations/node-0x',
+    'archetype/rules/eslint/best-practices',
     'archetype/rules/eslint/es2015',
+    'archetype/rules/eslint/errors',
+    'archetype/rules/eslint/strict',
+    'archetype/rules/eslint/style',
+    'archetype/rules/eslint/variables',
+    'archetype/rules/eslint/node',
   ],
   'parserOptions': {
-    'ecmaVersion': '2015',
+    'ecmaVersion': 2017,
   },
+  'plugins': [
+    'import',
+  ],
   'rules': {
-    // Enforce the consistent use of either backticks, double, or single quotes
-    // http://eslint.org/docs/rules/quotes
-    'quotes': ['error', 'single', {
-      'avoidEscape': true,
+    // Ensure imports point to a file/module that can be resolved
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+    'import/no-unresolved': ['error', {
+      'amd': true,
+      'commonjs': true,
     }],
   },
 };
