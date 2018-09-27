@@ -11,10 +11,6 @@ module.exports = {
     // http://eslint.org/docs/rules/init-declarations
     'init-declarations': 'off',
 
-    // Disallow catch clause parameters from shadowing variables in the outer scope
-    // http://eslint.org/docs/rules/no-catch-shadow
-    'no-catch-shadow': 'off',
-
     // Disallow deleting variables
     // http://eslint.org/docs/rules/no-delete-var
     'no-delete-var': 'error',

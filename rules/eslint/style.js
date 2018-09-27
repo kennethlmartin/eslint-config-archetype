@@ -121,10 +121,6 @@ module.exports = {
     // http://eslint.org/docs/rules/lines-around-comment
     'lines-around-comment': 'off',
 
-    // Require or disallow newlines around directives
-    // http://eslint.org/docs/rules/lines-around-directive
-    'lines-around-directive': 'off',
-
     // Enforce a maximum depth that blocks can be nested
     // http://eslint.org/docs/rules/max-depth
     'max-depth': 'off',
@@ -171,14 +167,6 @@ module.exports = {
     // Require parentheses when invoking a constructor with no arguments
     // http://eslint.org/docs/rules/new-parens
     'new-parens': 'off',
-
-    // Require or disallow an empty line after variable declarations
-    // http://eslint.org/docs/rules/newline-after-var
-    'newline-after-var': 'off',
-
-    // Require an empty line before return statements
-    // http://eslint.org/docs/rules/newline-before-return
-    'newline-before-return': 'off',
 
     // Require a newline after each call in a method chain
     // http://eslint.org/docs/rules/newline-per-chained-call
