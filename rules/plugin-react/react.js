@@ -10,6 +10,22 @@ module.exports = {
     'react',
   ],
   'rules': {
+    // Enforces consistent naming for boolean props
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
+    'react/boolean-prop-naming': 'off',
+
+    // Forbid "button" element without an explicit "type" attribute
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md
+    'react/button-has-type': 'off',
+
+    // Prevent extraneous defaultProps on components
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
+    'react/default-props-match-prop-types': 'off',
+
+    // Rule enforces consistent usage of destructuring assignment in component
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
+    'react/destructuring-assignment': 'off',
+
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/display-name': 'off',
@@ -17,6 +33,10 @@ module.exports = {
     // Forbid certain props on Components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
     'react/forbid-component-props': 'off',
+
+    // Forbid certain props on DOM Nodes
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
+    'react/forbid-dom-props': 'off',
 
     // Forbid certain elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
@@ -29,6 +49,10 @@ module.exports = {
     // Forbid certain propTypes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'off',
+
+    // Prevent using this.state inside this.setState
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
+    'react/no-access-state-in-setstate': 'off',
 
     // Prevent using Array index in key props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
@@ -76,6 +100,10 @@ module.exports = {
       'ignoreStateless': true,
     }],
 
+    // Prevent usage of shouldComponentUpdate when extending React.PureComponent
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
+    'react/no-redundant-should-component-update': 'off',
+
     // Prevent usage of the return value of React.render
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
     'react/no-render-return-value': 'off',
@@ -88,6 +116,14 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
     'react/no-string-refs': 'error',
 
+    // Prevent using this in stateless functional components
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-this-in-sfc.md
+    'react/no-this-in-sfc': 'off',
+
+    // Prevent common casing typos
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-typos.md
+    'react/no-typos': 'off',
+
     // Prevent invalid characters from appearing in markup
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
     'react/no-unescaped-entities': 'off',
@@ -96,9 +132,21 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
     'react/no-unknown-property': 'error',
 
+    // Prevent usage of UNSAFE_ methods
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
+    'react/no-unsafe': 'off',
+
     // Prevent definitions of unused prop types
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
     'react/no-unused-prop-types': 'off',
+
+    // Prevent definitions of unused state properties
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-state.md
+    'react/no-unused-state': 'off',
+
+    // Prevent usage of setState in componentWillUpdate
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
+    'react/no-will-update-set-state': 'off',
 
     // Enforce ES5 or ES6 class for React Components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
