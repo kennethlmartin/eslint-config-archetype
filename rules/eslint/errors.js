@@ -77,7 +77,11 @@ module.exports = {
 
     // Disallow unnecessary parentheses
     // http://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': 'off',
+    'no-extra-parens': ['error', 'all', {
+      'ignoreJSX': 'multi-line',
+      'nestedBinaryExpressions': false,
+      'returnAssign': false,
+    }],
 
     // Disallow unnecessary semicolons
     // http://eslint.org/docs/rules/no-extra-semi
