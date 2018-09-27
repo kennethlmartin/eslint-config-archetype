@@ -10,6 +10,14 @@ module.exports = {
     'import',
   ],
   'rules': {
+    // Enforce a leading comment with the webpackChunkName for dynamic imports
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
+    'import/dynamic-import-chunkname': 'off',
+
+    // Ensure all exports appear after other statements
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
+    'import/exports-last': 'off',
+
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': 'error',
@@ -17,6 +25,10 @@ module.exports = {
     // Ensure all imports appear before other statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
     'import/first': 'off',
+
+    // Prefer named exports to be grouped together in a single export declaration
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
+    'import/group-exports': 'off',
 
     // Limit the maximum number of dependencies a module can have
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
@@ -26,6 +38,14 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
     'import/newline-after-import': 'error',
 
+    // Forbid anonymous values as default exports
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
+    'import/no-anonymous-default-export': 'off',
+
+    // Forbid default exports
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md
+    'import/no-default-export': 'off',
+
     // Report repeated import of the same module in multiple places
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
     'import/no-duplicates': 'error',
@@ -33,6 +53,10 @@ module.exports = {
     // Forbid named default exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-default.md
     'import/no-named-default': 'off',
+
+    // Forbid named exports
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-export.md
+    'import/no-named-export': 'off',
 
     // Report namespace imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md

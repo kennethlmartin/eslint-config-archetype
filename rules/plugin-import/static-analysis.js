@@ -26,6 +26,10 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
     'import/no-absolute-path': 'off',
 
+    // Forbid a module from importing a module with a dependency path back to itself
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+    'import/no-cycle': 'off',
+
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 'error',
@@ -34,9 +38,17 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
     'import/no-internal-modules': 'off',
 
+    // Forbid importing modules from parent directories
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
+    'import/no-relative-parent-imports': 'off',
+
     // Restrict which files can be imported in a given folder
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
     'import/no-restricted-paths': 'off',
+
+    // Forbid a module from importing itself
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
+    'import/no-self-import': 'off',
 
     // Ensure imports point to a file/module that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
@@ -44,6 +56,10 @@ module.exports = {
       'amd': true,
       'commonjs': true,
     }],
+
+    // Prevent unnecessary path segments in import and require statements
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
+    'import/no-useless-path-segments': 'off',
 
     // Forbid Webpack loader syntax in imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
