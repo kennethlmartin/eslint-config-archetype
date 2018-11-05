@@ -2,7 +2,7 @@
 
 module.exports = {
   'env': {
-    'commonjs': true,
+    'node': true,
   },
   'extends': [
     'archetype/rules/eslint/best-practices',
