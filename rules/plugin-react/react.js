@@ -9,6 +9,11 @@ module.exports = {
   'globals': {
     'React': true,
   },
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true,
+    },
+  },
   'plugins': [
     'react',
   ],
