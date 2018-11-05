@@ -14,7 +14,7 @@ module.exports = {
     'archetype/rules/eslint/node',
   ],
   'parserOptions': {
-    'ecmaVersion': 2017,
+    'ecmaVersion': 2018,
   },
   'plugins': [
     'import',
