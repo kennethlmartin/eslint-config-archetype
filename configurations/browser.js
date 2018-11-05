@@ -3,6 +3,7 @@
 module.exports = {
   'env': {
     'browser': true,
+    'commonjs': true,
   },
   'extends': [
     'archetype/rules/eslint/best-practices',
