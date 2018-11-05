@@ -2,7 +2,7 @@
 
 module.exports = {
   'env': {
-    'react-native/react-native': true,
+    'react-native-globals/all': true,
   },
   'extends': [
     'archetype/rules/eslint/best-practices',
@@ -19,4 +19,7 @@ module.exports = {
   'parserOptions': {
     'ecmaVersion': 2018,
   },
+  'plugins': [
+    'react-native-globals',
+  ],
 };
