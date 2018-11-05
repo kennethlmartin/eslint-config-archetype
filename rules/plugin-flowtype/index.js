@@ -20,7 +20,7 @@ module.exports = {
 
     // Enforces a particular style for boolean type annotations
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-boolean-style
-    'flowtype/boolean-style': [2, 'boolean'],
+    'flowtype/boolean-style': ['error', 'boolean'],
 
     // Marks Flow type identifiers as defined.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-define-flow-type
