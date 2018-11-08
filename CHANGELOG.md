@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Support for Flowtype.
+- Support for React Native.
 - Include new rule definitions.
   - `array-bracket-newline`
   - `array-element-newline`
@@ -68,8 +69,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - removed: `node-8x` -> use `node`
   - removed: `react` -> use `browser` and extend react specific rules directly.
 - Updates to rule definitions.
+  - `max-len`
   - `no-extra-paren`
+  - `strict`
   - `valid-jsdoc`
+  - `react/jsx-filename-extension`
 
 ### Removed
 - Eslint 5+ has dropped support for Node.js 4.
