@@ -4,11 +4,9 @@
 
 ## Installation
 
-> Add the following to your `package.json`'s `devDependencies`:
-
-  ```json
-"eslint-config-archetype": "git+ssh://git@github.com:kennethlmartin/eslint-config-archetype.git",
-  ```
+```
+npm i --save-dev eslint-config-archetype
+```
 
 ## Usage
 
