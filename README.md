@@ -14,7 +14,10 @@ npm i --save-dev eslint-config-archetype
 
 ```js
 module.exports = {
-  extends: 'archetype/configurations/browser',
+  extends: [
+    'archetype/configurations/browser',
+    'archetype/rules/plugin-react',
+  ],
 };
 ```
 
@@ -29,7 +32,7 @@ This package includes the following complete and ready-to-use configurations:
 ### Rules:
 The following rule-based configurations define every rule supported by eslint and the available plugins. These rule configurations make up the base set of rules for the above complete configurations:
 
-**eslint:**
+**[eslint](https://eslint.org/docs/rules/):**
 - `archetype/rules/eslint/best-practices`
 - `archetype/rules/eslint/errors`
 - `archetype/rules/eslint/es2015`
@@ -38,22 +41,25 @@ The following rule-based configurations define every rule supported by eslint an
 - `archetype/rules/eslint/style`
 - `archetype/rules/eslint/variables`
 
-**plugin-flowtype:**
+**[plugin-flowtype](https://www.npmjs.com/package/eslint-plugin-flowtype):**
 - `archetype/rules/plugin-flowtype`
 
-**plugin-import:**
+**[plugin-import](https://www.npmjs.com/package/eslint-plugin-import):**
 - `archetype/rules/plugin-import`
 
-**plugin-no-only-tests:**
+**[plugin-react-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc):**
+- `archetype/rules/plugin-jsdoc`
+
+**[plugin-no-only-tests](https://www.npmjs.com/package/eslint-plugin-no-only-tests):**
 - `archetype/rules/plugin-no-only-tests`
 
-**plugin-react:**
+**[plugin-react](https://github.com/yannickcr/eslint-plugin-react):**
 - `archetype/rules/plugin-react`
 - `archetype/rules/plugin-react/jsx`
 - `archetype/rules/plugin-react/react`
 
-**plugin-react-native:**
-- `archetype/rules/react-native`
+**[plugin-react-native](https://www.npmjs.com/package/eslint-plugin-react-native):**
+- `archetype/rules/plugin-react-native`
 
 ***
 
