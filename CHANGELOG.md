@@ -5,7 +5,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-No current unreleased changes.
+### Added
+- Support forJSDoc.
+- Include new rule definitions.
+  - `jsdoc/check-param-names`
+  - `jsdoc/check-tag-names`
+  - `jsdoc/check-types`
+  - `jsdoc/newline-after-description`
+  - `jsdoc/no-undefined-types`
+  - `jsdoc/require-description`
+  - `jsdoc/require-description-complete-sentence`
+  - `jsdoc/require-example`
+  - `jsdoc/require-hyphen-before-param-description`
+  - `jsdoc/require-param`
+  - `jsdoc/require-param-description`
+  - `jsdoc/require-param-name`
+  - `jsdoc/require-param-type`
+  - `jsdoc/require-returns-description`
+  - `jsdoc/require-returns-type`
+  - `jsdoc/valid-types`
+
+### Changed
+- Upgrade eslint `5.9.0 => 5.9.0` dependency.
+
+### Removed
+- Remove unused `eslint-plugin-require-jsdoc` dependency.
 
 ## [2.0.0] - 2018-11-08
 ### Added
