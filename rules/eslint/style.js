@@ -36,6 +36,7 @@ module.exports = {
     'capitalized-comments': ['error', 'always', {
       'ignoreConsecutiveComments': true,
       'ignoreInlineComments': true,
+      'ignorePattern': 'webpack',
     }],
 
     // Require or disallow trailing commas

@@ -27,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Upgrade eslint `5.9.0 => 5.9.0` dependency.
+- Updates to rule definitions.
+  - `capitalized-comments`
 
 ### Removed
 - Remove unused `eslint-plugin-require-jsdoc` dependency.
