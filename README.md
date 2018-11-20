@@ -10,7 +10,7 @@ npm i --save-dev eslint-config-archetype
 
 ## Usage
 
-> Extend base configurations, rule declarations, or a combination of both.
+> Extend base configurations, grouped rule definitions, or a combination of both.
 
 ```js
 module.exports = {
