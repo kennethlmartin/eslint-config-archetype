@@ -4,13 +4,90 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-No current unreleased changes.
+## [4.0.0] - 2020-06-20
+### Added
+- Include new rule definitions.
+  - `default-case-last`
+  - `default-param-last`
+  - `flowtype/arrow-parens`
+  - `flowtype/no-mixed`
+  - `flowtype/require-compound-type-alias`
+  - `flowtype/require-indexer-name`
+  - `flowtype/require-inexact-type`
+  - `flowtype/require-readonly-react-props`
+  - `flowtype/spread-exact-type`
+  - `function-call-argument-newline`
+  - `grouped-accessor-pairs`
+  - `import/no-unused-modules`
+  - `jsdoc/check-access`
+  - `jsdoc/check-alignment`
+  - `jsdoc/check-examples`
+  - `jsdoc/check-indentation`
+  - `jsdoc/check-property-names`
+  - `jsdoc/check-syntax`
+  - `jsdoc/check-values`
+  - `jsdoc/empty-tags`
+  - `jsdoc/implements-on-classes`
+  - `jsdoc/match-description`
+  - `jsdoc/no-types`
+  - `jsdoc/require-file-overview`
+  - `jsdoc/require-jsdoc`
+  - `jsdoc/require-property-description`
+  - `jsdoc/require-property-name`
+  - `jsdoc/require-property-type`
+  - `jsdoc/require-property`
+  - `jsdoc/require-returns-check`
+  - `jsdoc/require-returns`
+  - `max-classes-per-file`
+  - `no-constructor-return`
+  - `no-dupe-else-if`
+  - `no-dupe-else-if`
+  - `no-import-assign`
+  - `no-loss-of-precision`
+  - `no-setter-return`
+  - `no-useless-catch`
+  - `prefer-exponentiation-operator`
+  - `prefer-named-capture-group`
+  - `prefer-regex-literals`
+  - `react-native/no-single-element-style-arrays`
+  - `react-native/sort-styles`
+  - `react/function-component-definition`
+  - `react/jsx-curly-newline`
+  - `react/jsx-fragments`
+  - `react/jsx-no-script-url`
+  - `react/jsx-no-useless-fragment`
+  - `react/jsx-props-no-spreading`
+  - `react/no-adjacent-inline-elements`
+  - `react/prefer-read-only-props`
+  - `react/state-in-constructor`
+  - `react/static-property-placement`
+
+### Changed
+- Upgrade package dependencies.
+- Update `ecmaVersion` to 2020.
+- Updates to rule definitions:
+  - `capitalized-comments`
+
+### Removed
+- Remove deprecated rule definitions:
+  - `callback-return`
+  - `global-require`
+  - `handle-callback-err`
+  - `no-buffer-constructor`
+  - `no-mixed-requires`
+  - `no-new-require`
+  - `no-path-concat`
+  - `no-process-env`
+  - `no-process-exit`
+  - `no-restricted-modules`
+  - `no-sync`
+  - `require-jsdoc`
+  - `valid-jsdoc`
 
 ## [3.0.0] - 2018-11-20
 ### Added
 - Support forJSDoc.
-- Include new rule definitions.
+- Include new rule definitions:
   - `jsdoc/check-param-names`
   - `jsdoc/check-tag-names`
   - `jsdoc/check-types`
@@ -29,8 +106,8 @@ No current unreleased changes.
   - `jsdoc/valid-types`
 
 ### Changed
-- Upgrade eslint `5.9.0 => 5.9.0` dependency.
-- Updates to rule definitions.
+- Upgrade `eslint` dependency to `5.9.0`
+- Updates to rule definitions:
   - `capitalized-comments`
 
 ### Removed
@@ -40,7 +117,7 @@ No current unreleased changes.
 ### Added
 - Support for Flowtype.
 - Support for React Native.
-- Include new rule definitions.
+- Include new rule definitions:
   - `array-bracket-newline`
   - `array-element-newline`
   - `for-direction`
@@ -100,7 +177,7 @@ No current unreleased changes.
   - removed: `node-0x` -> use `node`
   - removed: `node-8x` -> use `node`
   - removed: `react` -> use `browser` and extend react specific rules directly.
-- Updates to rule definitions.
+- Updates to rule definitions:
   - `max-len`
   - `no-extra-paren`
   - `strict`
@@ -109,7 +186,7 @@ No current unreleased changes.
 
 ### Removed
 - Eslint 5+ has dropped support for Node.js 4.
-- Remove deprecated rules.
+- Remove deprecated rule definitions:
   - `lines-around-directive`
   - `newline-after-var`
   - `newline-before-return`
@@ -125,7 +202,7 @@ No current unreleased changes.
 
 ## [1.0.1] - 2018-05-13
 ### Removed
-- Remove deprecated rules.
+- Remove deprecated rule definitions:
   - `react/jsx-space-before-closing`
 
 ## [1.0.0] - 2018-03-14

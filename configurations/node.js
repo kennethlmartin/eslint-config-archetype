@@ -2,6 +2,7 @@
 
 module.exports = {
   'env': {
+    'es2020': true,
     'node': true,
   },
   'extends': [
@@ -11,11 +12,7 @@ module.exports = {
     'archetype/rules/eslint/strict',
     'archetype/rules/eslint/style',
     'archetype/rules/eslint/variables',
-    'archetype/rules/eslint/node',
   ],
-  'parserOptions': {
-    'ecmaVersion': 2018,
-  },
   'plugins': [
     'import',
   ],

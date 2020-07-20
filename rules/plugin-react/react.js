@@ -58,9 +58,17 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 'off',
 
+    // Standardize the way function component get defined (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    'react/function-component-definition': 'off',
+
     // Prevent using this.state inside this.setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
     'react/no-access-state-in-setstate': 'off',
+
+    // Prevent adjacent inline elements not separated by whitespace.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
+    'react/no-adjacent-inline-elements': 'off',
 
     // Prevent using Array index in key props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
@@ -160,6 +168,10 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
     'react/prefer-es6-class': ['error', 'always'],
 
+    // Require read-only props. (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
+    'react/prefer-read-only-props': 'off',
+
     // Enforce stateless React Components to be written as a pure function
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': 'error',
@@ -230,6 +242,14 @@ module.exports = {
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
     'react/sort-prop-types': 'error',
+
+    // State initialization in an ES6 class component should be in a constructor
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
+    'react/state-in-constructor': 'off',
+
+    // Defines where React component static properties should be positioned.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
+    'react/static-property-placement': 'off',
 
     // Enforce style prop value being an object
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md

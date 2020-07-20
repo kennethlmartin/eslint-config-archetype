@@ -4,6 +4,7 @@ module.exports = {
   'env': {
     'browser': true,
     'commonjs': true,
+    'es2020': true,
   },
   'extends': [
     'archetype/rules/eslint/best-practices',
@@ -15,7 +16,4 @@ module.exports = {
     'archetype/rules/plugin-import',
   ],
   'parser': 'babel-eslint',
-  'parserOptions': {
-    'ecmaVersion': 2018,
-  },
 };

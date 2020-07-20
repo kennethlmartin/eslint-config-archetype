@@ -2,6 +2,7 @@
 
 module.exports = {
   'env': {
+    'es2020': true,
     'react-native-globals/all': true,
   },
   'extends': [
@@ -16,9 +17,6 @@ module.exports = {
     'archetype/rules/plugin-react-native',
   ],
   'parser': 'babel-eslint',
-  'parserOptions': {
-    'ecmaVersion': 2018,
-  },
   'plugins': [
     'react-native-globals',
   ],

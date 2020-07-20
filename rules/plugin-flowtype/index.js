@@ -18,6 +18,10 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-array-style-simple-type
     'flowtype/array-style-simple-type': 'off',
 
+    // Enforces the consistent use of parentheses in arrow functions.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-arrow-parens
+    'flowtype/arrow-parens': 'off',
+
     // Enforces a particular style for boolean type annotations
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-boolean-style
     'flowtype/boolean-style': ['error', 'boolean'],
@@ -50,6 +54,10 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-flow-fix-me-comments
     'flowtype/no-flow-fix-me-comments': 'off',
 
+    // Warns against "mixed" type annotations.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-mixed
+    'flowtype/no-mixed': 'off',
+
     // Requires use of $ReadOnlyArray instead of just Array or array shorthand notation.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-no-mutable-array
     'flowtype/no-mutable-array': 'off',
@@ -74,13 +82,30 @@ module.exports = {
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-object-type-delimiter
     'flowtype/object-type-delimiter': 'off',
 
+    // Requires to make a type alias for all union and intersection types.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-compound-type-alias
+    'flowtype/require-compound-type-alias': 'off',
+
     // This rule enforces exact object types.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-exact-type
     'flowtype/require-exact-type': 'off',
 
+    // Validates Flow object indexer name.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-indexer-name
+    'flowtype/require-indexer-name': 'off',
+
+    // Enforces explicit inexact object types.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-inexact-type
+    'flowtype/require-inexact-type': 'off',
+
     // Requires that all function parameters have type annotations.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-parameter-type
     'flowtype/require-parameter-type': 'off',
+
+    // Validates that React props are marked as $ReadOnly.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-readonly-react-props
+    'flowtype/require-readonly-react-props': 'off',
+
 
     // Requires that functions have return type annotation.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-return-type
@@ -117,6 +142,10 @@ module.exports = {
     // Enforces consistent spacing after the type annotation colon.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-space-after-type-colon
     'flowtype/space-before-type-colon': 'off',
+
+    // Enforce object types, that are spread to be exact type explicitly.
+    // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-spread-exact-type
+    'flowtype/spread-exact-type': 'off',
 
     // Enforces a consistent naming pattern for type aliases.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-type-id-match

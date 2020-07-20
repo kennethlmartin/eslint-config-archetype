@@ -35,6 +35,13 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
     'react/jsx-curly-brace-presence': 'off',
 
+    // Enforce consistent line breaks inside jsx curly (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
+    'react/jsx-curly-newline': ['error', {
+      'multiline': 'consistent',
+      'singleline': 'consistent',
+    }],
+
     // Enforce or disallow spaces inside of curly braces in JSX attributes (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-curly-spacing': 'error',
@@ -52,6 +59,10 @@ module.exports = {
     // Enforce position of the first prop in JSX (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
+
+    // Enforce shorthand or standard form for React fragments (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+    'react/jsx-fragments': ['error', 'element'],
 
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
@@ -95,6 +106,10 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': 'error',
 
+    // Forbid javascript: URLs
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
+    'react/jsx-no-script-url': 'error',
+
     // Prevent usage of unsafe target='_blank'
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
     'react/jsx-no-target-blank': 'error',
@@ -102,6 +117,10 @@ module.exports = {
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 'error',
+
+    // Disallow unnecessary fragments (fixable)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
+    'react/jsx-no-useless-fragment': 'error',
 
     // Limit to one expression per line in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
@@ -114,6 +133,10 @@ module.exports = {
     // Disallow multiple spaces between inline JSX props (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
     'react/jsx-props-no-multi-spaces': 'off',
+
+    // Prevent JSX prop spreading
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
+    'react/jsx-props-no-spreading': 'error',
 
     // Enforce default props alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md

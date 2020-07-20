@@ -1,5 +1,6 @@
 module.exports = {
   'env': {
+    'es2020': true,
     'node': true,
   },
   'extends': [
@@ -12,5 +13,5 @@ module.exports = {
     // Require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
     'quote-props': ['error', 'always'],
-  }
+  },
 };

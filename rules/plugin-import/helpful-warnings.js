@@ -33,5 +33,10 @@ module.exports = {
     // Report use of exported name as property of default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
     'import/no-named-as-default-member': 'off',
+
+    // Report modules without exports, or exports without matching import in another module
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
+    'import/no-unused-modules': 'off',
+
   },
 };

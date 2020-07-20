@@ -1,9 +1,17 @@
-***
-**eslint-config-archetype** - Javascript has standards.
-***
+<div align="center">
+  <a href="https://eslint.org/">
+    <img src="https://eslint.org/assets/img/logo.svg" width="200" />
+  </a>
+  <h3>Eslint Config Archetype</h3>
+</div>
 
-[![npm](https://img.shields.io/npm/v/eslint-config-archetype.svg?style=for-the-badge)](https://www.npmjs.com/package/eslint-config-archetype)
-[![David](https://img.shields.io/david/kennethlmartin/eslint-config-archetype.svg?style=for-the-badge)](https://david-dm.org/kennethlmartin/eslint-config-archetype)
+<div align="center">
+
+  [![npm](https://img.shields.io/npm/v/eslint-config-archetype.svg?style=for-the-badge)](https://www.npmjs.com/package/eslint-config-archetype)
+  [![David](https://img.shields.io/david/kennethlmartin/eslint-config-archetype.svg?style=for-the-badge)](https://david-dm.org/kennethlmartin/eslint-config-archetype)
+</div>
+
+***
 
 ## Installation
 
@@ -39,7 +47,6 @@ The following rule-based configurations define every rule supported by eslint an
 - `archetype/rules/eslint/best-practices`
 - `archetype/rules/eslint/errors`
 - `archetype/rules/eslint/es2015`
-- `archetype/rules/eslint/node`
 - `archetype/rules/eslint/strict`
 - `archetype/rules/eslint/style`
 - `archetype/rules/eslint/variables`
