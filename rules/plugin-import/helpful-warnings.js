@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'import',
-  ],
-  'rules': {
+  plugins: ['import'],
+  rules: {
     // Report any invalid exports, i.e. re-export of the same name
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
     'import/export': 'error',
@@ -37,6 +35,5 @@ module.exports = {
     // Report modules without exports, or exports without matching import in another module
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
     'import/no-unused-modules': 'off',
-
   },
 };

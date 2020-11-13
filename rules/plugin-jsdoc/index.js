@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'jsdoc',
-  ],
-  'rules': {
+  plugins: ['jsdoc'],
+  rules: {
     // Checks that @access tags use one of the following values
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-access
     'jsdoc/check-access': 'off',

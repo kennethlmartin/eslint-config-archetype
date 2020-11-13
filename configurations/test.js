@@ -1,11 +1,9 @@
 'use strict';
 
 module.exports = {
-  'env': {
-    'es2020': true,
-    'mocha': true,
+  env: {
+    es2020: true,
+    mocha: true,
   },
-  'extends': [
-    'archetype/rules/plugin-no-only-tests',
-  ],
+  extends: ['archetype/rules/plugin-no-only-tests'],
 };

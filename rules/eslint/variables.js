@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow initialization in variable declarations
     // https://eslint.org/docs/rules/init-declarations
     'init-declarations': 'off',
@@ -49,9 +49,12 @@ module.exports = {
 
     // Disallow the use of variables before they are defined
     // https://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': ['error', {
-      'classes': true,
-      'functions': true,
-    }],
+    'no-use-before-define': [
+      'error',
+      {
+        classes: true,
+        functions: true,
+      },
+    ],
   },
 };

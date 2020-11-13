@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  'env': {
-    'browser': true,
-    'commonjs': true,
-    'es2020': true,
+  env: {
+    browser: true,
+    commonjs: true,
+    es2020: true,
   },
-  'extends': [
+  extends: [
     'archetype/rules/eslint/best-practices',
     'archetype/rules/eslint/es2015',
     'archetype/rules/eslint/errors',
@@ -15,5 +15,5 @@ module.exports = {
     'archetype/rules/eslint/variables',
     'archetype/rules/plugin-import',
   ],
-  'parser': 'babel-eslint',
+  parser: 'babel-eslint',
 };

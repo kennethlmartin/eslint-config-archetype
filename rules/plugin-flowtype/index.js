@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'flowtype',
-  ],
-  'rules': {
+  plugins: ['flowtype'],
+  rules: {
     // Enforces a particular annotation style of complex types.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-array-style-complex-type
     'flowtype/array-style-complex-type': 'off',
@@ -105,7 +103,6 @@ module.exports = {
     // Validates that React props are marked as $ReadOnly.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-readonly-react-props
     'flowtype/require-readonly-react-props': 'off',
-
 
     // Requires that functions have return type annotation.
     // https://github.com/gajus/eslint-plugin-flowtype#eslint-plugin-flowtype-rules-require-return-type

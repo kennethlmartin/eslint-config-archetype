@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'import',
-  ],
-  'rules': {
+  plugins: ['import'],
+  rules: {
     // Report AMD require and define calls
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
     'import/no-amd': 'off',

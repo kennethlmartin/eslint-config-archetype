@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'react-native',
-  ],
-  'rules': {
+  plugins: ['react-native'],
+  rules: {
     // Detect `StyleSheet` rules and inline styles containing color literals instead of variables
     // https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-color-literals.md
     'react-native/no-color-literals': 'error',
@@ -39,4 +37,3 @@ module.exports = {
     'react-native/split-platform-components': 'error',
   },
 };
-

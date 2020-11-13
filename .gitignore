@@ -3,4 +3,5 @@
 .DS_Store
 .*cache
 *.swp
+.vscode/
 node_modules/

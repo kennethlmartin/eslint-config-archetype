@@ -6,18 +6,16 @@
  */
 
 module.exports = {
-  'globals': {
-    'React': true,
+  globals: {
+    React: true,
   },
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
   },
-  'plugins': [
-    'react',
-  ],
-  'rules': {
+  plugins: ['react'],
+  rules: {
     // Enforces consistent naming for boolean props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
     'react/boolean-prop-naming': 'off',
@@ -112,9 +110,12 @@ module.exports = {
 
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': ['error', {
-      'ignoreStateless': true,
-    }],
+    'react/no-multi-comp': [
+      'error',
+      {
+        ignoreStateless: true,
+      },
+    ],
 
     // Prevent usage of shouldComponentUpdate when extending React.PureComponent
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
@@ -203,9 +204,10 @@ module.exports = {
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [
-      'error', {
-        'groups': {
-          'lifecycle': [
+      'error',
+      {
+        groups: {
+          lifecycle: [
             'propTypes',
             'defaultProps',
             'contextTypes',
@@ -222,20 +224,10 @@ module.exports = {
             'componentDidUpdate',
             'componentWillUnmount',
           ],
-          'other': [
-            'everything-else',
-            '/^handle.+$/',
-          ],
-          'rendering': [
-            '/^render.+$/',
-            'render',
-          ],
+          other: ['everything-else', '/^handle.+$/'],
+          rendering: ['/^render.+$/', 'render'],
         },
-        'order': [
-          'lifecycle',
-          'other',
-          'rendering',
-        ],
+        order: ['lifecycle', 'other', 'rendering'],
       },
     ],
 

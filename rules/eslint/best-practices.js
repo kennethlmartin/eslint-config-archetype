@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Enforce getter and setter pairs in objects and classes
     // https://eslint.org/docs/rules/accessor-pairs
     'accessor-pairs': 'off',

@@ -6,9 +6,9 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow strict mode directives
     // https://eslint.org/docs/rules/strict
-    'strict': ['error', 'never'],
+    strict: ['error', 'never'],
   },
 };

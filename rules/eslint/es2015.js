@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Require braces around arrow function bodies
     // https://eslint.org/docs/rules/arrow-body-style
     'arrow-body-style': 'off',

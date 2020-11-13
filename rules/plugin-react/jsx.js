@@ -6,15 +6,13 @@
  */
 
 module.exports = {
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
   },
-  'plugins': [
-    'react',
-  ],
-  'rules': {
+  plugins: ['react'],
+  rules: {
     // Enforce boolean attributes notation in JSX (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': 'error',
@@ -37,10 +35,13 @@ module.exports = {
 
     // Enforce consistent line breaks inside jsx curly (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
-    'react/jsx-curly-newline': ['error', {
-      'multiline': 'consistent',
-      'singleline': 'consistent',
-    }],
+    'react/jsx-curly-newline': [
+      'error',
+      {
+        multiline: 'consistent',
+        singleline: 'consistent',
+      },
+    ],
 
     // Enforce or disallow spaces inside of curly braces in JSX attributes (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
@@ -52,9 +53,12 @@ module.exports = {
 
     // Restrict file extensions that may contain JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', {
-      'extensions': ['.js', '.jsx'],
-    }],
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
 
     // Enforce position of the first prop in JSX (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
@@ -86,9 +90,12 @@ module.exports = {
 
     // Limit maximum of props on a single line in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': ['error', {
-      'maximum': 3,
-    }],
+    'react/jsx-max-props-per-line': [
+      'error',
+      {
+        maximum: 3,
+      },
+    ],
 
     // Prevent usage of .bind() and arrow functions in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
@@ -152,11 +159,14 @@ module.exports = {
 
     // Validate whitespace in and around the JSX opening and closing brackets (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-    'react/jsx-tag-spacing': ['error', {
-      'afterOpening': 'never',
-      'beforeClosing': 'never',
-      'beforeSelfClosing': 'always',
-    }],
+    'react/jsx-tag-spacing': [
+      'error',
+      {
+        afterOpening: 'never',
+        beforeClosing: 'never',
+        beforeSelfClosing: 'always',
+      },
+    ],
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md

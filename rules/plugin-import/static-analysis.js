@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'import',
-  ],
-  'rules': {
+  plugins: ['import'],
+  rules: {
     // Ensure a default export is present, given a default import
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md
     'import/default': 'off',
@@ -52,10 +50,13 @@ module.exports = {
 
     // Ensure imports point to a file/module that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': ['error', {
-      'amd': true,
-      'commonjs': true,
-    }],
+    'import/no-unresolved': [
+      'error',
+      {
+        amd: true,
+        commonjs: true,
+      },
+    ],
 
     // Prevent unnecessary path segments in import and require statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md

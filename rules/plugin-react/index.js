@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'extends': [
+  extends: [
     'archetype/rules/plugin-react/jsx',
     'archetype/rules/plugin-react/react',
   ],

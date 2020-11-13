@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // enforce "for" loop update clause moving the counter in the right direction.
     // https://eslint.org/docs/rules/for-direction
     'for-direction': 'off',
@@ -33,7 +33,7 @@ module.exports = {
 
     // disallow the use of `console`
     // https://eslint.org/docs/rules/no-console
-    'no-console': ['error', { 'allow': ['warn', 'error'] }],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
 
     // disallow constant expressions in conditions
     // https://eslint.org/docs/rules/no-constant-condition

@@ -6,10 +6,8 @@
  */
 
 module.exports = {
-  'plugins': [
-    'import',
-  ],
-  'rules': {
+  plugins: ['import'],
+  rules: {
     // Enforce a leading comment with the webpackChunkName for dynamic imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
     'import/dynamic-import-chunkname': 'off',
@@ -68,9 +66,12 @@ module.exports = {
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    'import/order': ['error', {
-      'groups': ['builtin', 'external'],
-    }],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external'],
+      },
+    ],
 
     // Prefer a default export if module exports a single name
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md

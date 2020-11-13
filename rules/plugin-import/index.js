@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'extends': [
+  extends: [
     'archetype/rules/plugin-import/helpful-warnings',
     'archetype/rules/plugin-import/module-systems',
     'archetype/rules/plugin-import/static-analysis',

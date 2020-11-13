@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  'rules': {
+  rules: {
     // Enforce line breaks after opening and before closing array brackets
     // https://eslint.org/docs/rules/array-bracket-newline
     'array-bracket-newline': 'off',
@@ -37,20 +37,26 @@ module.exports = {
 
     // Require or disallow trailing commas
     // https://eslint.org/docs/rules/comma-dangle
-    'comma-dangle': ['error', {
-      'arrays': 'always-multiline',
-      'exports': 'always-multiline',
-      'functions': 'always-multiline',
-      'imports': 'always-multiline',
-      'objects': 'always-multiline',
-    }],
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'always-multiline',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
+      },
+    ],
 
     // Enforce consistent spacing before and after commas
     // https://eslint.org/docs/rules/comma-spacing
-    'comma-spacing': ['error', {
-      'after': true,
-      'before': false,
-    }],
+    'comma-spacing': [
+      'error',
+      {
+        after: true,
+        before: false,
+      },
+    ],
 
     // Enforce consistent comma style
     // https://eslint.org/docs/rules/comma-style
@@ -110,9 +116,13 @@ module.exports = {
 
     // Enforce consistent indentation
     // https://eslint.org/docs/rules/indent
-    'indent': ['error', 2, {
-      'SwitchCase': 1,
-    }],
+    'indent': [
+      'error',
+      2,
+      {
+        SwitchCase: 1,
+      },
+    ],
 
     // Enforce the consistent use of either double or single quotes in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
@@ -124,10 +134,13 @@ module.exports = {
 
     // Enforce consistent spacing before and after keywords
     // https://eslint.org/docs/rules/keyword-spacing
-    'keyword-spacing': ['error', {
-      'after': true,
-      'before': true,
-    }],
+    'keyword-spacing': [
+      'error',
+      {
+        after: true,
+        before: true,
+      },
+    ],
 
     // Enforce position of line comments
     // https://eslint.org/docs/rules/line-comment-position
@@ -151,14 +164,17 @@ module.exports = {
 
     // Enforce a maximum line length
     // https://eslint.org/docs/rules/max-len
-    'max-len': ['warn', {
-      'code': 100,
-      'ignoreComments': true,
-      'ignoreRegExpLiterals': true,
-      'ignoreStrings': true,
-      'ignoreTemplateLiterals': true,
-      'ignoreUrls': true,
-    }],
+    'max-len': [
+      'warn',
+      {
+        code: 100,
+        ignoreComments: true,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreUrls: true,
+      },
+    ],
 
     // Enforce a maximum number of lines per file
     // https://eslint.org/docs/rules/max-lines
@@ -338,10 +354,14 @@ module.exports = {
 
     // Enforce the consistent use of either backticks, double, or single quotes
     // https://eslint.org/docs/rules/quotes
-    'quotes': ['error', 'single', {
-      'allowTemplateLiterals': false,
-      'avoidEscape': true,
-    }],
+    'quotes': [
+      'error',
+      'single',
+      {
+        allowTemplateLiterals: false,
+        avoidEscape: true,
+      },
+    ],
 
     // Require or disallow semicolons instead of ASI
     // https://eslint.org/docs/rules/semi
@@ -357,10 +377,14 @@ module.exports = {
 
     // Require object keys to be sorted
     // https://eslint.org/docs/rules/sort-keys
-    'sort-keys': ['warn', 'asc', {
-      'caseSensitive': false,
-      'natural': true,
-    }],
+    'sort-keys': [
+      'warn',
+      'asc',
+      {
+        caseSensitive: false,
+        natural: true,
+      },
+    ],
 
     // Require variables within the same declaration block to be sorted
     // https://eslint.org/docs/rules/sort-vars
