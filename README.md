@@ -1,9 +1,10 @@
 <div align="center">
   <a href="https://eslint.org/">
-    <img src="https://eslint.org/assets/img/logo.svg" width="200" />
+    <img src="https://i.ibb.co/RjPhNgF/eslint-config-archetype.png" width="400" />
   </a>
-  <h3>Eslint Config Archetype</h3>
 </div>
+
+<br />
 
 <div align="center">
 
