@@ -71,7 +71,3 @@ The following rule-based configurations define every rule supported by eslint an
 
 **[plugin-react-native](https://www.npmjs.com/package/eslint-plugin-react-native):**
 - `archetype/rules/plugin-react-native`
-
-***
-
-[Changelog](https://github.com/kennethlmartin/eslint-config-archetype/blob/master/CHANGELOG.md)
