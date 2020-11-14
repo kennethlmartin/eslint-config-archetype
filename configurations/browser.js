@@ -1,5 +1,7 @@
 'use strict';
 
+test;
+
 module.exports = {
   env: {
     browser: true,
