@@ -8,4 +8,18 @@ module.exports = {
     'archetype/rules/plugin-react/jsx',
     'archetype/rules/plugin-react/react',
   ],
+  globals: {
+    React: true,
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  plugins: ['react'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };

@@ -32,6 +32,7 @@ This package includes the following complete and ready-to-use configurations:
 
 - `archetype/configurations/browser`
 - `archetype/configurations/node`
+- `archetype/configurations/react`
 - `archetype/configurations/react-native`
 
 ### Rules:

@@ -4,12 +4,6 @@
  */
 
 module.exports = {
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  plugins: ['react'],
   rules: {
     // Enforce boolean attributes notation in JSX (fixable)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md

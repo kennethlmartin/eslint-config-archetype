@@ -1,16 +1,8 @@
 module.exports = {
   env: {
-    es2020: true,
     node: true,
   },
-  extends: [
-    'archetype/rules/eslint/best-practices',
-    'archetype/rules/eslint/es2015',
-    'archetype/rules/eslint/errors',
-    'archetype/rules/eslint/strict',
-    'archetype/rules/eslint/style',
-    'archetype/rules/eslint/variables',
-  ],
+  extends: ['archetype/configurations/base'],
   plugins: ['import'],
   rules: {
     // Ensure imports point to a file/module that can be resolved
@@ -18,7 +10,7 @@ module.exports = {
     'import/no-unresolved': [
       'error',
       {
-        amd: true,
+        caseSensitive: true,
         commonjs: true,
       },
     ],
