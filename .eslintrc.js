@@ -4,9 +4,9 @@ module.exports = {
     node: true,
   },
   extends: [
-    './rules/eslint/best-practices.js',
-    './rules/eslint/errors.js',
-    './rules/eslint/style.js',
-    './rules/eslint/variables.js',
+    './rules/eslint/best-practices',
+    './rules/eslint/errors',
+    './rules/eslint/style',
+    './rules/eslint/variables',
   ],
 };
