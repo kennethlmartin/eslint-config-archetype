@@ -5,14 +5,8 @@
 </div>
 
 <br />
-
-<div align="center">
-
-  [![npm](https://img.shields.io/npm/v/eslint-config-archetype.svg?style=for-the-badge)](https://www.npmjs.com/package/eslint-config-archetype)
-  [![David](https://img.shields.io/david/kennethlmartin/eslint-config-archetype.svg?style=for-the-badge)](https://david-dm.org/kennethlmartin/eslint-config-archetype)
-</div>
-
-***
+<br />
+<br />
 
 ## Installation
 
