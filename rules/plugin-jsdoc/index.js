@@ -64,6 +64,10 @@ module.exports = {
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-newline-after-description
     'jsdoc/newline-after-description': ['error', 'always'],
 
+    // Checks for multi-line-style comments which fail to meet the criteria of a jsdoc block
+    // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-bad-blocks
+    'jsdoc/no-bad-blocks': 'error',
+
     // This rule reports types being used on @param or @returns
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-no-types
     'jsdoc/no-types': 'off',
