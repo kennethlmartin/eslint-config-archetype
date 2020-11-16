@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * React Plugin Rules - React
  * https://github.com/yannickcr/eslint-plugin-react

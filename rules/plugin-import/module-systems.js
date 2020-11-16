@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Import Plugin Rules - Module Systems
  * https://github.com/benmosher/eslint-plugin-import

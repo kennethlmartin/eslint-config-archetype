@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Eslint Rules - Possible Errors
  * http://eslint.org/docs/rules/#possible-errors

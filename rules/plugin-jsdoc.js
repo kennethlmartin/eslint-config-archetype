@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * JsDoc Plugin Rules
  * https://www.npmjs.com/package/eslint-plugin-jsdoc

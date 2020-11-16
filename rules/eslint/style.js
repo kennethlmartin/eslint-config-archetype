@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Eslint Rules - Stylistic Issues
  * https://eslint.org/docs/rules/#stylistic-issues

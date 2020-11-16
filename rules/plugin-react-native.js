@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * React Native Plugin Rules
  * https://github.com/intellicode/eslint-plugin-react-native

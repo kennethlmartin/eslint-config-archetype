@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Eslint Rules - Variables
  * http://eslint.org/docs/rules/#variables

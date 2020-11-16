@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Eslint Rules - ECMAScript 2015
  * https://eslint.org/docs/rules/#ecmascript-6
