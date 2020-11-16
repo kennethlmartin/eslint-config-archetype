@@ -24,6 +24,10 @@ module.exports = {
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-indentation
     'jsdoc/check-indentation': 'off',
 
+    // Reports invalid alignment of JSDoc block lines.
+    // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-line-alignment
+    'jsdoc/check-line-alignment': 'off',
+
     // Ensures that parameter names in JSDoc match those in the function declaration
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-check-param-names
     'jsdoc/check-param-names': 'error',
