@@ -52,6 +52,9 @@ The following rule-based configurations define every rule supported by eslint an
 **[plugin-react-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc):**
 - `archetype/rules/plugin-jsdoc`
 
+**[plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier):**
+- `archetype/rules/plugin-prettier`
+
 **[plugin-react](https://github.com/yannickcr/eslint-plugin-react):**
 - `archetype/rules/plugin-react`
 - `archetype/rules/plugin-react/jsx`
