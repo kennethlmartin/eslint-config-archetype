@@ -103,7 +103,7 @@ module.exports = {
 
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-    'react/jsx-no-literals': 'error',
+    'react/jsx-no-literals': 'off',
 
     // Forbid javascript: URLs
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
