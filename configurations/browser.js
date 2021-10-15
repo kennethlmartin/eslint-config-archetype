@@ -4,5 +4,5 @@ module.exports = {
     commonjs: true,
   },
   extends: ['archetype/configurations/base', 'archetype/rules/plugin-import'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
 };
