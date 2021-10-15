@@ -1,6 +1,6 @@
 /**
  * Prettier Plugin Rules
- * https://www.npmjs.com/package/eslint-plugin-prettier
+ * @see https://www.npmjs.com/package/eslint-plugin-prettier
  */
 
 module.exports = {
@@ -12,6 +12,10 @@ module.exports = {
   ],
   plugins: ['prettier'],
   rules: {
+    /**
+     * Ensure styled is imported from @emotion/styled
+     * @see https://github.com/prettier/eslint-plugin-prettier#options
+     */
     'prettier/prettier': 'error',
   },
 };

@@ -1,6 +1,6 @@
 /**
  * Import Plugin Rules
- * https://github.com/benmosher/eslint-plugin-import
+ * @see https://github.com/benmosher/eslint-plugin-import
  */
 
 module.exports = {
