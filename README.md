@@ -33,7 +33,6 @@ This package includes the following complete and ready-to-use configurations:
 - `archetype/configurations/browser`
 - `archetype/configurations/node`
 - `archetype/configurations/react`
-- `archetype/configurations/react-native`
 
 ### Rules:
 The following rule-based configurations define every rule supported by eslint and the available plugins. These rule configurations make up the base set of rules for the above complete configurations:
@@ -59,6 +58,3 @@ The following rule-based configurations define every rule supported by eslint an
 - `archetype/rules/plugin-react`
 - `archetype/rules/plugin-react/jsx`
 - `archetype/rules/plugin-react/react`
-
-**[plugin-react-native](https://www.npmjs.com/package/eslint-plugin-react-native):**
-- `archetype/rules/plugin-react-native`
