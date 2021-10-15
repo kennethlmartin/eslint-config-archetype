@@ -4,12 +4,7 @@
  */
 
 module.exports = {
-  extends: [
-    'prettier',
-    'prettier/babel',
-    'prettier/react',
-    'prettier/standard',
-  ],
+  extends: ['prettier'],
   plugins: ['prettier'],
   rules: {
     /**
