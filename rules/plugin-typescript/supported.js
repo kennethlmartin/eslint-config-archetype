@@ -63,7 +63,7 @@ module.exports = {
      * Consistent with type definition either interface or type
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md
      */
-    '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 
     /**
      * Enforces consistent usage of type imports
