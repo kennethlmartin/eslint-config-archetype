@@ -144,7 +144,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': [
       'error',
       {
-        allowSingleExtends: false,
+        allowSingleExtends: true,
       },
     ], // recommended
 
