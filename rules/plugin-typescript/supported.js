@@ -69,7 +69,13 @@ module.exports = {
      * Enforces consistent usage of type imports
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
      */
-    '@typescript-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        disallowTypeAnnotations: true,
+        prefer: 'type-imports',
+      },
+    ],
 
     /**
      * Require explicit return types on functions and class methods
