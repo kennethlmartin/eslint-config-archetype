@@ -1,11 +1,11 @@
+<br />
+
 <div align="center">
   <a href="https://eslint.org/">
-    <img src="https://i.ibb.co/RjPhNgF/eslint-config-archetype.png" width="400" />
+    <img src="https://i.ibb.co/m0Cf0KJ/eslint-config-archetype.png" width="400" />
   </a>
 </div>
 
-<br />
-<br />
 <br />
 
 ## Installation
