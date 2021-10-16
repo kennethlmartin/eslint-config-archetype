@@ -111,7 +111,7 @@ module.exports = {
      * Require `let` or `const` instead of `var`
      * @see https://eslint.org/docs/rules/no-var
      */
-    'no-var': 'off',
+    'no-var': 'error',
 
     /**
      * Require or disallow method and property shorthand syntax for object literals
@@ -129,7 +129,7 @@ module.exports = {
      * Require `const` declarations for variables that are never reassigned after declared
      * @see https://eslint.org/docs/rules/prefer-const
      */
-    'prefer-const': 'off',
+    'prefer-const': 'error',
 
     /**
      * Require destructuring from arrays and/or objects
@@ -147,13 +147,13 @@ module.exports = {
      * Require rest parameters instead of `arguments`
      * @see https://eslint.org/docs/rules/prefer-rest-params
      */
-    'prefer-rest-params': 'off',
+    'prefer-rest-params': 'error',
 
     /**
      * Require spread operators instead of `.apply()`
      * @see https://eslint.org/docs/rules/prefer-spread
      */
-    'prefer-spread': 'off',
+    'prefer-spread': 'error',
 
     /**
      * Require template literals instead of string concatenation

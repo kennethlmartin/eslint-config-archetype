@@ -56,5 +56,6 @@ The following rule-based configurations define every rule supported by eslint an
 
 **[plugin-react](https://github.com/yannickcr/eslint-plugin-react):**
 - `archetype/rules/plugin-react`
-- `archetype/rules/plugin-react/jsx`
-- `archetype/rules/plugin-react/react`
+
+**[plugin-typescript](https://github.com/typescript-eslint/typescript-eslint):**
+- `archetype/rules/plugin-typescript`
