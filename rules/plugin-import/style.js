@@ -96,7 +96,16 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external'],
+        'groups': [
+          'type',
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+        'newlines-between': 'always',
       },
     ],
 
