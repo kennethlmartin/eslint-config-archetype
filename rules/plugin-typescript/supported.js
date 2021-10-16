@@ -27,7 +27,16 @@ module.exports = {
      * Bans @ts-<directive> comments from being used or requires descriptions after directive
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
      */
-    '@typescript-eslint/ban-ts-comment': 'error', // recommended
+    '@typescript-eslint/ban-ts-comment': [
+      'error',
+      {
+        'minimumDescriptionLength': 3,
+        'ts-check': false,
+        'ts-expect-error': 'allow-with-description',
+        'ts-ignore': true,
+        'ts-nocheck': true,
+      },
+    ], // recommended
 
     /**
      * Bans // tslint:<rule-flag> comments from being used
