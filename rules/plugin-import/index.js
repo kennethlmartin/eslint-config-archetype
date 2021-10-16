@@ -10,4 +10,5 @@ module.exports = {
     'archetype/rules/plugin-import/static-analysis',
     'archetype/rules/plugin-import/style',
   ],
+  plugins: ['import'],
 };

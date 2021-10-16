@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  plugins: ['import'],
   rules: {
     /**
      * Report any invalid exports, i.e. re-export of the same name

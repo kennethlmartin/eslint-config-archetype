@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  plugins: ['import'],
   rules: {
     /**
      * Enforce a leading comment with the webpackChunkName for dynamic imports

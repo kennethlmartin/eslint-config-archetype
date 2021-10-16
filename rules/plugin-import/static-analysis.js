@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  plugins: ['import'],
   rules: {
     /**
      * Ensure a default export is present, given a default import.

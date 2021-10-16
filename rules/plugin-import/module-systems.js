@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  plugins: ['import'],
   rules: {
     /**
      * Report AMD `require` and `define` calls
