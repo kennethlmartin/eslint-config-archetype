@@ -191,11 +191,13 @@ module.exports = {
      * @see https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-jsdoc
      */
     'jsdoc/require-jsdoc': 'off',
+
     /**
      * Requires that all function parameters are documented
      * @see https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-param
      */
     'jsdoc/require-param': 'error',
+
     /**
      * Requires that each `@param` tag has a description value
      * @see https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-require-param-description

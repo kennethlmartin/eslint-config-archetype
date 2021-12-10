@@ -144,6 +144,12 @@ module.exports = {
     'react/no-find-dom-node': 'error',
 
     /**
+     * Prevent usage of invalid attributes
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-invalid-html-attribute.md
+     */
+    'react/no-invalid-html-attribute': 'off',
+
+    /**
      * Prevent usage of isMounted
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
      */
