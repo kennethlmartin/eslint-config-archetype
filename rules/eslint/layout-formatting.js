@@ -1,6 +1,6 @@
 /**
- * Eslint Rules - Stylistic Issues
- * @see https://eslint.org/docs/rules/#stylistic-issues
+ * Eslint Rules - Layout & Formatting
+ * @see https://eslint.org/docs/rules/#layout-formatting
  */
 
 module.exports = {
@@ -15,13 +15,25 @@ module.exports = {
      * Enforce consistent spacing inside array brackets
      * @see https://eslint.org/docs/rules/array-bracket-spacing
      */
-    'array-bracket-spacing': 'error',
+    'array-bracket-spacing': 'off',
 
     /**
      * Enforce line breaks after each array element
      * @see https://eslint.org/docs/rules/array-element-newline
      */
     'array-element-newline': 'off',
+
+    /**
+     * Require parentheses around arrow function arguments
+     * @see https://eslint.org/docs/rules/arrow-parens
+     */
+    'arrow-parens': 'off',
+
+    /**
+     * Enforce consistent spacing before and after the arrow in arrow functions
+     * @see https://eslint.org/docs/rules/arrow-spacing
+     */
+    'arrow-spacing': 'off',
 
     /**
      * Disallow or enforce spaces inside of blocks after opening block and before closing block
@@ -34,18 +46,6 @@ module.exports = {
      * @see https://eslint.org/docs/rules/brace-style
      */
     'brace-style': 'off',
-
-    /**
-     * Enforce camelcase naming convention
-     * @see https://eslint.org/docs/rules/camelcase
-     */
-    'camelcase': 'off',
-
-    /**
-     * Enforce or disallow capitalization of the first letter of a comment
-     * @see https://eslint.org/docs/rules/capitalized-comments
-     */
-    'capitalized-comments': 'off',
 
     /**
      * Require or disallow trailing commas
@@ -87,10 +87,10 @@ module.exports = {
     'computed-property-spacing': 'off',
 
     /**
-     * Enforce consistent naming when capturing the current execution context
-     * @see https://eslint.org/docs/rules/consistent-this
+     * Enforce consistent newlines before and after dots
+     * @see https://eslint.org/docs/rules/dot-location
      */
-    'consistent-this': 'off',
+    'dot-location': 'off',
 
     /**
      * Require or disallow newline at the end of files
@@ -105,24 +105,6 @@ module.exports = {
     'func-call-spacing': 'off',
 
     /**
-     * Require function names to match the name of the variable or property to which they are assigned
-     * @see https://eslint.org/docs/rules/func-name-matching
-     */
-    'func-name-matching': 'off',
-
-    /**
-     * Require or disallow named `function` expressions
-     * @see https://eslint.org/docs/rules/func-names
-     */
-    'func-names': 'off',
-
-    /**
-     * Enforce the consistent use of either `function` declarations or expressions
-     * @see https://eslint.org/docs/rules/func-style
-     */
-    'func-style': 'off',
-
-    /**
      * Enforce line breaks between arguments of a function call
      * @see https://eslint.org/docs/rules/function-call-argument-newline
      */
@@ -135,22 +117,10 @@ module.exports = {
     'function-paren-newline': 'off',
 
     /**
-     * Disallow specified identifiers
-     * @see https://eslint.org/docs/rules/id-denylist
+     * Enforce consistent spacing around `*` operators in generator functions
+     * @see https://eslint.org/docs/rules/generator-star-spacing
      */
-    'id-denylist': 'off',
-
-    /**
-     * Enforce minimum and maximum identifier lengths
-     * @see https://eslint.org/docs/rules/id-length
-     */
-    'id-length': 'off',
-
-    /**
-     * Require identifiers to match a specified regular expression
-     * @see https://eslint.org/docs/rules/id-match
-     */
-    'id-match': 'off',
+    'generator-star-spacing': 'off',
 
     /**
      * Enforce the location of arrow function bodies
@@ -219,12 +189,6 @@ module.exports = {
     'lines-between-class-members': 'off',
 
     /**
-     * Enforce a maximum depth that blocks can be nested
-     * @see https://eslint.org/docs/rules/max-depth
-     */
-    'max-depth': 'off',
-
-    /**
      * Enforce a maximum line length
      * @see https://eslint.org/docs/rules/max-len
      */
@@ -241,58 +205,16 @@ module.exports = {
     ],
 
     /**
-     * Enforce a maximum number of lines per file
-     * @see https://eslint.org/docs/rules/max-lines
-     */
-    'max-lines': 'off',
-
-    /**
-     * Enforce a maximum number of lines of code in a function
-     * @see https://eslint.org/docs/rules/max-lines-per-function
-     */
-    'max-lines-per-function': 'off',
-
-    /**
-     * Enforce a maximum depth that callbacks can be nested
-     * @see https://eslint.org/docs/rules/max-nested-callbacks
-     */
-    'max-nested-callbacks': 'off',
-
-    /**
-     * Enforce a maximum number of parameters in function definitions
-     * @see https://eslint.org/docs/rules/max-params
-     */
-    'max-params': 'off',
-
-    /**
-     * Enforce a maximum number of statements allowed in function blocks
-     * @see https://eslint.org/docs/rules/max-statements
-     */
-    'max-statements': 'off',
-
-    /**
      * Enforce a maximum number of statements allowed per line
      * @see https://eslint.org/docs/rules/max-statements-per-line
      */
     'max-statements-per-line': 'off',
 
     /**
-     * Enforce a particular style for multiline comments
-     * @see https://eslint.org/docs/rules/multiline-comment-style
-     */
-    'multiline-comment-style': 'off',
-
-    /**
      * Enforce newlines between operands of ternary expressions
      * @see https://eslint.org/docs/rules/multiline-ternary
      */
     'multiline-ternary': 'off',
-
-    /**
-     * Require constructor names to begin with a capital letter
-     * @see https://eslint.org/docs/rules/new-cap
-     */
-    'new-cap': 'off',
 
     /**
      * Enforce or disallow parentheses when invoking a constructor with no arguments
@@ -307,40 +229,10 @@ module.exports = {
     'newline-per-chained-call': 'off',
 
     /**
-     * Disallow `Array` constructors
-     * @see https://eslint.org/docs/rules/no-array-constructor
+     * Disallow unnecessary parentheses
+     * @see https://eslint.org/docs/rules/no-extra-parens
      */
-    'no-array-constructor': 'off',
-
-    /**
-     * Disallow bitwise operators
-     * @see https://eslint.org/docs/rules/no-bitwise
-     */
-    'no-bitwise': 'off',
-
-    /**
-     * Disallow `continue` statements
-     * @see https://eslint.org/docs/rules/no-continue
-     */
-    'no-continue': 'off',
-
-    /**
-     * Disallow inline comments after code
-     * @see https://eslint.org/docs/rules/no-inline-comments
-     */
-    'no-inline-comments': 'off',
-
-    /**
-     * Disallow `if` statements as the only statement in `else` blocks
-     * @see https://eslint.org/docs/rules/no-lonely-if
-     */
-    'no-lonely-if': 'error',
-
-    /**
-     * Disallow mixed binary operators
-     * @see https://eslint.org/docs/rules/no-mixed-operators
-     */
-    'no-mixed-operators': 'off',
+    'no-extra-parens': 'off',
 
     /**
      * Disallow mixed spaces and tabs for indentation
@@ -349,10 +241,10 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
 
     /**
-     * Disallow use of chained assignment expressions
-     * @see https://eslint.org/docs/rules/no-multi-assign
+     * Disallow multiple spaces
+     * @see https://eslint.org/docs/rules/no-multi-spaces
      */
-    'no-multi-assign': 'off',
+    'no-multi-spaces': 'error',
 
     /**
      * Disallow multiple empty lines
@@ -361,64 +253,16 @@ module.exports = {
     'no-multiple-empty-lines': 'off',
 
     /**
-     * Disallow negated conditions
-     * @see https://eslint.org/docs/rules/no-negated-condition
-     */
-    'no-negated-condition': 'off',
-
-    /**
-     * Disallow nested ternary expressions
-     * @see https://eslint.org/docs/rules/no-nested-ternary
-     */
-    'no-nested-ternary': 'error',
-
-    /**
-     * Disallow `Object` constructors
-     * @see https://eslint.org/docs/rules/no-new-object
-     */
-    'no-new-object': 'off',
-
-    /**
-     * Disallow the unary operators `++` and `--`
-     * @see https://eslint.org/docs/rules/no-plusplus
-     */
-    'no-plusplus': 'off',
-
-    /**
-     * Disallow specified syntax
-     * @see https://eslint.org/docs/rules/no-restricted-syntax
-     */
-    'no-restricted-syntax': 'off',
-
-    /**
      * Disallow all tabs
      * @see https://eslint.org/docs/rules/no-tabs
      */
     'no-tabs': 'off',
 
     /**
-     * Disallow ternary operators
-     * @see https://eslint.org/docs/rules/no-ternary
-     */
-    'no-ternary': 'off',
-
-    /**
      * Disallow trailing whitespace at the end of lines
      * @see https://eslint.org/docs/rules/no-trailing-spaces
      */
     'no-trailing-spaces': 'off',
-
-    /**
-     * Disallow dangling underscores in identifiers
-     * @see https://eslint.org/docs/rules/no-underscore-dangle
-     */
-    'no-underscore-dangle': 'off',
-
-    /**
-     * Disallow ternary operators when simpler alternatives exist
-     * @see https://eslint.org/docs/rules/no-unneeded-ternary
-     */
-    'no-unneeded-ternary': 'error',
 
     /**
      * Disallow whitespace before properties
@@ -451,24 +295,6 @@ module.exports = {
     'object-property-newline': 'off',
 
     /**
-     * Enforce variables to be declared either together or separately in functions
-     * @see https://eslint.org/docs/rules/one-var
-     */
-    'one-var': 'off',
-
-    /**
-     * Require or disallow newlines around variable declarations
-     * @see https://eslint.org/docs/rules/one-var-declaration-per-line
-     */
-    'one-var-declaration-per-line': 'off',
-
-    /**
-     * Require or disallow assignment operator shorthand where possible
-     * @see https://eslint.org/docs/rules/operator-assignment
-     */
-    'operator-assignment': 'off',
-
-    /**
      * Enforce consistent linebreak style for operators
      * @see https://eslint.org/docs/rules/operator-linebreak
      */
@@ -487,24 +313,6 @@ module.exports = {
     'padding-line-between-statements': 'off',
 
     /**
-     * Disallow the use of `Math.pow` in favor of the `**` operator
-     * @see https://eslint.org/docs/rules/prefer-exponentiation-operator
-     */
-    'prefer-exponentiation-operator': 'error',
-
-    /**
-     * Disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.
-     * @see https://eslint.org/docs/rules/prefer-object-spread
-     */
-    'prefer-object-spread': 'off',
-
-    /**
-     * Require quotes around object literal property names
-     * @see https://eslint.org/docs/rules/quote-props
-     */
-    'quote-props': 'off',
-
-    /**
      * Enforce the consistent use of either backticks, double, or single quotes
      * @see https://eslint.org/docs/rules/quotes
      */
@@ -516,6 +324,12 @@ module.exports = {
         avoidEscape: true,
       },
     ],
+
+    /**
+     * Enforce spacing between rest and spread operators and their expressions
+     * @see https://eslint.org/docs/rules/rest-spread-spacing
+     */
+    'rest-spread-spacing': 'off',
 
     /**
      * Require or disallow semicolons instead of ASI
@@ -534,25 +348,6 @@ module.exports = {
      * @see https://eslint.org/docs/rules/semi-style
      */
     'semi-style': 'off',
-
-    /**
-     * Require object keys to be sorted
-     * @see https://eslint.org/docs/rules/sort-keys
-     */
-    'sort-keys': [
-      'warn',
-      'asc',
-      {
-        caseSensitive: false,
-        natural: true,
-      },
-    ],
-
-    /**
-     * Require variables within the same declaration block to be sorted
-     * @see https://eslint.org/docs/rules/sort-vars
-     */
-    'sort-vars': 'off',
 
     /**
      * Enforce consistent spacing before blocks
@@ -585,16 +380,16 @@ module.exports = {
     'space-unary-ops': 'off',
 
     /**
-     * Enforce consistent spacing after the `//` or `/*` in a comment
-     * @see https://eslint.org/docs/rules/spaced-comment
-     */
-    'spaced-comment': 'off',
-
-    /**
      * Enforce spacing around colons of switch statements
      * @see https://eslint.org/docs/rules/switch-colon-spacing
      */
     'switch-colon-spacing': 'off',
+
+    /**
+     * Require or disallow spacing around embedded expressions of template strings
+     * @see https://eslint.org/docs/rules/template-curly-spacing
+     */
+    'template-curly-spacing': 'off',
 
     /**
      * Require or disallow spacing between template tags and their literals
@@ -609,9 +404,21 @@ module.exports = {
     'unicode-bom': 'off',
 
     /**
+     * Require parentheses around immediate `function` invocations
+     * @see https://eslint.org/docs/rules/wrap-iife
+     */
+    'wrap-iife': 'off',
+
+    /**
      * Require parenthesis around regex literals
      * @see https://eslint.org/docs/rules/wrap-regex
      */
     'wrap-regex': 'off',
+
+    /**
+     * Require or disallow spacing around the `*` in `yield*` expressions
+     * @see https://eslint.org/docs/rules/yield-star-spacing
+     */
+    'yield-star-spacing': 'off',
   },
 };

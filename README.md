@@ -38,12 +38,9 @@ This package includes the following complete and ready-to-use configurations:
 The following rule-based configurations define every rule supported by eslint and the available plugins. These rule configurations make up the base set of rules for the above complete configurations:
 
 **[eslint](https://eslint.org/docs/rules/):**
-- `archetype/rules/eslint/best-practices`
-- `archetype/rules/eslint/errors`
-- `archetype/rules/eslint/es2015`
-- `archetype/rules/eslint/strict`
-- `archetype/rules/eslint/style`
-- `archetype/rules/eslint/variables`
+- `archetype/rules/eslint/layout-formatting`
+- `archetype/rules/eslint/possible-problems`
+- `archetype/rules/eslint/suggestions`
 
 **[plugin-import](https://www.npmjs.com/package/eslint-plugin-import):**
 - `archetype/rules/plugin-import`

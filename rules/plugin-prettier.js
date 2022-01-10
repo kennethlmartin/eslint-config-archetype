@@ -8,7 +8,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     /**
-     * Ensure styled is imported from @emotion/styled
+     * Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
      * @see https://github.com/prettier/eslint-plugin-prettier#options
      */
     'prettier/prettier': 'error',
