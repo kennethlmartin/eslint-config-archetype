@@ -1,5 +1,6 @@
 /**
  * Typescript Plugin Rules
+ *
  * @see https://github.com/typescript-eslint/typescript-eslint
  */
 
@@ -14,6 +15,7 @@ module.exports = {
   rules: {
     /**
      * Disables rules that are already checked by the TypeScript compiler
+     *
      * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/src/configs#eslint-recommended
      */
     'constructor-super': 'off', // ts(2335) & ts(2377)

@@ -1,5 +1,6 @@
 /**
  * React Plugin Rules
+ *
  * @see https://github.com/yannickcr/eslint-plugin-react
  */
 

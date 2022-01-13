@@ -1,5 +1,6 @@
 /**
  * Import Plugin Rules
+ *
  * @see https://github.com/benmosher/eslint-plugin-import
  */
 
